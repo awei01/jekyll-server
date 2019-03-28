@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/bionic64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
   # using a specific IP.
   # config.vm.network "private_network", ip: "192.168.33.10"
   # config.vm.network "private_network", ip: "192.168.168.168", :nfs => true
-  config.vm.network "private_network", ip: "192.168.168.168"
+  config.vm.network "private_network", ip: "192.168.168.167"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
